@@ -1,3 +1,3 @@
 # Site-Padaria
 
-https://Clarissepequena.github.io/Site-Padaria/inderx.html
+https://Clarissepequena.github.io/Site-Padaria

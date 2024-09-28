@@ -1,16 +1,98 @@
+html{
+    scroll-behavior: smooth;   
+    font-family: "Fredoka", sans-serif; 
+}
+
 body {
     margin: 0;
     background-color: rgb(223, 178, 120);
 }
 
 header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
     padding-right: 150px;
+    padding-left: 150px;
     align-items: center;
     justify-content: space-between;
 
 }
+footer{
+    background-color: aliceblue;
+    color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+
+}
+footer p{
+    margin: 0;
+}
 
 .logo-header{
-    width: 25%
+    width: 30%;
 
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+#introducao{
+    display:flex;
+    height: 500px;
+    align-items: center;
+    font-size: 30px;
+}
+#introducao div{
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+
+}
+#sobre-nos{
+    padding-left: 100px ;
+    padding-right: 100px;
+    background-color: rgb(226, 188, 137);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#produtos{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#produtos h2{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 70px;
+  color: rgb(66, 49, 24);
+  background-color: aliceblue;
+}
+.conteudo-produtos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+}
+.produto{
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+.direitos-autorais{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
