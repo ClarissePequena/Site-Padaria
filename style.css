@@ -96,3 +96,102 @@ footer p{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+#form-contato{
+width: 60%;
+background-color: rgb(0, 0, 0);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.grupo{
+font-weight: bold;
+color: rgb(255, 255, 255);
+}
+.grupo input,
+.gruppo textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4af8c;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.grupo input:focus,
+.grupo textarea:focus{
+border-color: rgb(255, 255, 255);
+outline: none;
+
+}
+#contato{
+ display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+color: rgb(0, 0, 0);
+padding: 20px;
+
+}
+#contato button{
+width: 100%;
+max-width: 400px;
+padding: 15px;
+font-size: 15px;
+font-weight: bold;
+background-color: rgb(223, 82, 82);
+color: aliceblue;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3 ease;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#contato button:hover{
+background-color: rgb(77, 248, 71);
+
+}
+@media (max-width: 875px){
+    #introducao{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #introducao div {
+        padding-left: 0;
+        padding-right: 0;
+        width: 80%;
+    }
+
+    header{
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+    }
+
+    .menu ul{
+        padding-left: 0;
+        margin: auto;
+    }
+
+    .logo-header{
+        width: 300px;
+    }
+
+    .conteudo-produtos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #produto {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .produto{
+        width: 80%;
+    }
+
+    #sobre-nos {
+        text-align: center;
+    }
+}
